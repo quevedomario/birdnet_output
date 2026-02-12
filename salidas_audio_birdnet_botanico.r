@@ -12,7 +12,7 @@ library(xkcd);library(extrafont) # solo para extética xkcd
 # Leer datos de xlsx (readxl) ####
 names(aliseda)
 
-# elimando columnas sobrantes ####
+# eliminando columnas sobrantes ####
 str(aliseda) 
 aliseda <- aliseda[,c(1:8)]
 head(aliseda)
